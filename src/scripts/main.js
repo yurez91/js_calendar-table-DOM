@@ -1,3 +1,7 @@
 'use strict';
 
-console.log('hello mate academy!');
+function calendarTable(year, month) {
+  const calendar = document.querySelector('#table');
+}
+
+calendarTable(2019, 10);
