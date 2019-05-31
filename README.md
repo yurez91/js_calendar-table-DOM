@@ -4,9 +4,9 @@ Template to start from before starting frontend projects.
 
 ## Task
 
-You need to create function that will be generate calendar for given pair 
+You need to create a function that generates calendar for a given pair 
 (year, month).
-Calendar must be table with `thead` and `tbody`, where day it's `TD`.
+The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
 
 Function `calendarTable(year, month)`
 
@@ -17,13 +17,8 @@ Function `calendarTable(year, month)`
     ```bash
     git clone git@github.com:<user_name>>/<task_repository>.git
     ```
-- Create separate branch for the solution. Name of the branch should be the same 
-as name of your channel in slack. 
-    ```bash
-    git checkout -b fs_on_apr19_sasha
-    ```
 - Run `npm install` to install dependencies.
-- Then `Develope`
+- Then `Develop`
 
 ## Development mode 
 
