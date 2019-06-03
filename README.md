@@ -1,10 +1,8 @@
-# Base template for Gulp
-
-Template to start from before starting frontend projects.
+# Calendar table
 
 ## Task
 
-You need to create a function that generates calendar for a given pair 
+Create a function that generates a calendar for a given pair 
 (year, month).
 The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
 
@@ -18,7 +16,6 @@ Function `calendarTable(year, month)`
     git clone git@github.com:<user_name>>/<task_repository>.git
     ```
 - Run `npm install` to install dependencies.
-- Then `Develop`
 
 ## Development mode 
 
@@ -29,7 +26,7 @@ Function `calendarTable(year, month)`
 - Make sure the code is clean. Run linters (`npm run lint`)
 - Follow [the simplified JS styleguide](https://mate-academy.github.io/style-guides/javascript-standard-modified)
 - Follow [HTML, CSS styleguide](https://mate-academy.github.io/style-guides/htmlcss.html)
-- When you finished `Deploy on gh-pages`
+- When your solution is complete `Deploy on gh-pages`
 
 ## Deploy on gh-pages
 
@@ -41,14 +38,16 @@ Function `calendarTable(year, month)`
   ```bash
   $ git add .
   $ git commit -m 'commit message'
-  $ git push origin branch-name
+  $ git push origin master
   ```
 - Execute `npm run deploy`. This command will push the `/dist` folder to branch
   `gh-pages` in your remote repository. 
-- Add links to your demo in readme.md
-- Create `Pull Request` from forked repo `(<branch_name>)` to original repo 
+- Add links to your demo in readme.md.
+- Commit and push all recent changes again.
+- Create `Pull Request` (going forward `PR`) from forked repo `(<branch_name>)
+` to original repo 
 (`master`).
-- Add links to created `PR`. `PR` must include updated `readme.md` with `Demo`.
+- Add a link to `PR` to Google spreadsheet. `PR` must include updated `readme.md` with `Demo`.
 
 ## Project structure
 
@@ -69,7 +68,7 @@ Server uses `dist/` as a project root.
 
 ### Demo link
 
-Add link here: `[Demo link](https://<your_account>.github.io/<repo_name>/)`
+Add link here: `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)`
 
 ### Screenshot of the card
 ![screenshot](./example/example-calendar.png)
