@@ -4,9 +4,12 @@
 
 Create a function that generates a calendar for a given pair 
 (year, month).
-The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
 
-Function `calendarTable(year, month)`
+Function `calendarTable(year, month, id)`
+
+`id ` - it's a DOM element.
+
+The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
 
 ## Workflow
 

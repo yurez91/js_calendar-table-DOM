@@ -1,7 +1,6 @@
 'use strict';
 
-function calendarTable(year, month) {
-  const calendar = document.querySelector('#table');
+function calendarTable(year, month, id) {
   // WRITE YOUR CODE HERE
 }
 
