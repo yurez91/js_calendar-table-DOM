@@ -5,9 +5,9 @@
 Create a function that generates a calendar for a given pair 
 (year, month).
 
-Function `calendarTable(year, month, id)`
+Function `calendarTable(year, month, element)`
 
-`id ` - it's a DOM element.
+`element` - it's a DOM element.
 
 The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
 
@@ -33,20 +33,15 @@ The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
 
 ## Deploy on gh-pages
 
-- Build the project
-  ```bash
-  $ npm run build
-  ```
+- Execute `npm run deploy`. This command will build your project to the 
+`/dist` folder and push it to branch `gh-pages` in your remote repository. 
+- Add links to your demo in readme.md.
 - Commit and push all recent changes
   ```bash
   $ git add .
   $ git commit -m 'commit message'
   $ git push origin master
   ```
-- Execute `npm run deploy`. This command will push the `/dist` folder to branch
-  `gh-pages` in your remote repository. 
-- Add links to your demo in readme.md.
-- Commit and push all recent changes again.
 - Create `Pull Request` (going forward `PR`) from forked repo `(<branch_name>)
 ` to original repo 
 (`master`).
