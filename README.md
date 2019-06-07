@@ -2,18 +2,15 @@
 
 ## Task
 
-Create a function that generates a calendar for a given pair 
-(year, month).
+Create a function `calendarTable` generating HTML `table` (with `thead` and `tbody`) inside a given `element` for given `year` and `month`.
 
 Function `calendarTable(year, month, element)`
 
-`element` - it's a DOM element.
-
-The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
+`element` - is a DOM element.
 
 ## Workflow
 
-- Fork the repository with task
+- Fork the task repository.
 - Clone forked repository 
     ```bash
     git clone git@github.com:<user_name>>/<task_repository>.git
@@ -42,9 +39,7 @@ The calendar must be a table with `thead` and `tbody`, where day it's `TD`.
   $ git commit -m 'commit message'
   $ git push origin master
   ```
-- Create `Pull Request` (going forward `PR`) from forked repo `(<branch_name>)
-` to original repo 
-(`master`).
+- Create `Pull Request` (going forward `PR`) from forked repo `(<branch_name>)` to original repo (`master`).
 - Add a link to `PR` to Google spreadsheet. `PR` must include updated `readme.md` with `Demo`.
 
 ## Project structure
