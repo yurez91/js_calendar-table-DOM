@@ -15,7 +15,7 @@ Function `calendarTable(year, month, element)`
     ```bash
     git clone git@github.com:<user_name>>/<task_repository>.git
     ```
-- Run `npm install` to install dependencies.
+- Run `npm install`.
 
 ## Development mode 
 
@@ -32,7 +32,10 @@ Function `calendarTable(year, month, element)`
 
 - Execute `npm run deploy`. This command will build your project to the 
 `/dist` folder and push it to branch `gh-pages` in your remote repository. 
-- Add links to your demo in readme.md.
+
+## Push your code to GitHub
+
+- Add links to your `gh-page` in `readme.md`.
 - Commit and push all recent changes
   ```bash
   $ git add .
