@@ -8,6 +8,8 @@ Function `calendarTable(year, month, element)`
 
 `element` - is a DOM element.
 
+> Learn how to work with [Dates](https://javascript.info/date) to solve the task
+
 ### Screenshot of the card
 ![screenshot](./example/example-calendar.png)
 
