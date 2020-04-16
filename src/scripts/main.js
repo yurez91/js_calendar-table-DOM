@@ -4,7 +4,7 @@ const calendar = document.querySelector('#calendar');
 
 function calendarTable(year, month, element) {
   const totalDaysInMonth = new Date(year, month, 0).getDate();
-  let firstDayInMonth = new Date(year, month - 1, 0).getDay();
+  const firstDayInMonth = new Date(year, month - 1, 0).getDay() || 7;
   const weeksInMonth = Math.ceil((totalDaysInMonth + firstDayInMonth) / 7);
   const daysInWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
   let headCalendar = '';
@@ -19,9 +19,9 @@ function calendarTable(year, month, element) {
     bodyCalendar += `<tr>`;
 
     for (let j = 0; j < daysInWeek.length; j++) {
-      if (firstDayInMonth > 0 || dayTotal > totalDaysInMonth) {
+      if ((i === 0 && j < firstDayInMonth)
+      || (dayTotal > totalDaysInMonth)) {
         bodyCalendar += `<td></td>`;
-        firstDayInMonth--;
       } else {
         bodyCalendar += `<td>${dayTotal}</td>`;
         dayTotal++;
@@ -43,4 +43,4 @@ function calendarTable(year, month, element) {
   element.append(table);
 }
 
-calendarTable(2020, 4, calendar);
+calendarTable(2020, 2, calendar);
